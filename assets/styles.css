@@ -25,6 +25,7 @@ body {
 
 .color-choice {
     font-size: 100px;
+    cursor: pointer;
 }
 
 #blue {
@@ -38,4 +39,24 @@ body {
 }
 #green {
     color: green;
+}
+#purple {
+    color: purple;
+}
+.button {
+    font-size: 25px;
+    width: 8vmin;
+    padding: 15px 8px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}
+.button:hover {
+    background-color: darkgray;
+    color:white;
+}
+.button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
